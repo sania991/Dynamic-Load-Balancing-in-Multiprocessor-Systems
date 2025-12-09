@@ -14,8 +14,6 @@ This algorithm is used in:
 - **CDN** - Distributing content delivery
 - **Gaming Servers** - Balancing player load
 
-**See [REAL_WORLD_APPLICATIONS.md](REAL_WORLD_APPLICATIONS.md) for detailed examples and how to adapt this code for practical use cases.**
-
 ### What This Project Does
 
 This project **simulates a multi-processor computer system** and demonstrates how to intelligently distribute work (tasks) across multiple processors to keep them balanced and efficient.
@@ -762,4 +760,5 @@ Load is recalculated when:
 
 ## Course
 CSE 316 - Operating Systems
+
 
