@@ -14,6 +14,8 @@ This algorithm is used in:
 - **CDN** - Distributing content delivery
 - **Gaming Servers** - Balancing player load
 
+**See [REAL_WORLD_APPLICATIONS.md](REAL_WORLD_APPLICATIONS.md) for detailed examples and how to adapt this code for practical use cases.**
+
 ### What This Project Does
 
 This project **simulates a multi-processor computer system** and demonstrates how to intelligently distribute work (tasks) across multiple processors to keep them balanced and efficient.
@@ -39,6 +41,20 @@ Imagine you're a manager with 4 workers (processors) and tasks keep coming in. I
 - **Web Servers**: Load balancing incoming requests
 - **Distributed Systems**: Task allocation in parallel computing
 
+## Quick Start
+
+### One-Click Setup
+
+**Windows Users:**
+1. Double-click `setup.bat` to install all requirements
+2. Run `python main.py` to start the simulation
+
+**Linux/Mac Users:**
+1. Run: `chmod +x setup.sh && ./setup.sh`
+2. Run `python3 main.py` to start the simulation
+
+For detailed installation instructions, see [INSTALL.md](INSTALL.md)
+
 ## Project Structure
 ```
 .
@@ -46,6 +62,9 @@ Imagine you're a manager with 4 workers (processors) and tasks keep coming in. I
 ├── Module2_SystemMonitor/     # System state monitoring
 ├── Module3_Visualization/     # Visualization and reporting
 ├── main.py                    # Main entry point
+├── setup.bat                  # One-click setup for Windows
+├── setup.sh                   # One-click setup for Linux/Mac
+├── requirements.txt           # Python dependencies
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 ```
@@ -58,10 +77,25 @@ Imagine you're a manager with 4 workers (processors) and tasks keep coming in. I
 - **[USAGE_GUIDE.md](USAGE_GUIDE.md)** - Detailed usage instructions
 
 **Windows Users - Easiest Method**: 
-1. Double-click `setup_and_run.bat` to automatically set up and run!
-2. Or follow the **[WINDOWS_USAGE_GUIDE.md](WINDOWS_USAGE_GUIDE.md)** for step-by-step instructions
+1. Double-click `setup.bat` to install all requirements (one-click setup!)
+2. Then run: `python main.py` to start the simulation
+3. Or follow the **[WINDOWS_USAGE_GUIDE.md](WINDOWS_USAGE_GUIDE.md)** for step-by-step instructions
 
 ## Installation
+
+### ⚡ One-Click Setup (Recommended)
+
+**Windows Users:**
+1. Double-click `setup.bat` - it will automatically install all requirements!
+2. Wait for installation to complete
+3. Run `python main.py` to start
+
+**Linux/Mac Users:**
+```bash
+chmod +x setup.sh && ./setup.sh
+```
+
+### Manual Installation
 
 1. **Install Python 3.7 or higher**
    - Download from: https://www.python.org/downloads/
@@ -72,6 +106,8 @@ Imagine you're a manager with 4 workers (processors) and tasks keep coming in. I
    py -m pip install -r requirements.txt
    ```
    Or: `python -m pip install -r requirements.txt`
+
+For detailed troubleshooting, see [INSTALL.md](INSTALL.md)
 
 ## 📖 How to Use It
 
@@ -726,5 +762,4 @@ Load is recalculated when:
 
 ## Course
 CSE 316 - Operating Systems
-
 

@@ -1,0 +1,46 @@
+============================================
+ONE-CLICK SETUP INSTRUCTIONS
+============================================
+
+WINDOWS USERS:
+--------------
+1. Double-click "setup.bat"
+2. Wait for installation to complete
+3. Run: python main.py
+
+That's it! The script will:
+- Check if Python is installed
+- Upgrade pip to latest version
+- Install all required packages (numpy, matplotlib, etc.)
+
+
+LINUX/MAC USERS:
+----------------
+1. Open terminal in this folder
+2. Run: chmod +x setup.sh
+3. Run: ./setup.sh
+4. Run: python3 main.py
+
+
+MANUAL INSTALLATION:
+--------------------
+If the one-click setup doesn't work:
+
+Windows:
+  python -m pip install --upgrade pip
+  python -m pip install -r requirements.txt
+
+Linux/Mac:
+  python3 -m pip install --upgrade pip --user
+  python3 -m pip install -r requirements.txt --user
+
+
+TROUBLESHOOTING:
+----------------
+- "Python is not recognized" → Install Python from python.org
+- "pip is not recognized" → Use: python -m pip instead
+- Permission errors (Linux/Mac) → Add --user flag to pip install
+
+
+For more details, see INSTALL.md
+
