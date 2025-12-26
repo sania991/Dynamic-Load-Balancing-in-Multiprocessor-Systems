@@ -1,4 +1,4 @@
-# Simplified Dynamic Load Balancer
+# Dynamic Load Balancer
 
 ## 📋 Overview
 
@@ -235,4 +235,5 @@ Created as a simplified educational example of dynamic load balancing.
 ## 📄 License
 
 Educational use only.
+
 
